@@ -35,8 +35,7 @@ body{
 .first ul li{
     color: #333;
     font-size: 15px;
-cursor: pointer;
-
+    cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .box{
@@ -46,7 +45,7 @@ cursor: pointer;
     margin-left: 1030px;
     margin-right: -95px;
     padding:14px;
-        border: 2px solid  rgba(159, 156, 156, 0.635);
+  border: 2px solid  rgba(159, 156, 156, 0.635);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,9 +55,7 @@ cursor: pointer;
     height: 2px;
     width: 100%;
     background-color: rgba(159, 156, 156, 0.635);
-
     margin: 20px 0;;
-    /* margin-top: 25px; */
 }
 .image img{
     margin-left:700px;
@@ -92,11 +89,13 @@ font-weight: bold;
 .descriptoin{
     margin-top: 65px;
     margin-left: 66px;
+    margin-bottom: 40px;
 }
-.descriptoin p{
-
-    margin-left: 23px;
-    font-size: 10px;
+.descriptoin h2{
+color: rgb(61, 59, 59);
+    margin-left: 21px;
+    margin-bottom: 5px;
+    font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .box2{
@@ -106,50 +105,19 @@ margin-bottom: 20px;
 }
 .box2 img{
    background-color: rgba(159, 156, 156, 0.635);
+   
    border-radius: 3px;
-   width: 30px;
-   height: 20px;
-   margin-top: 6px;
+   width: 40px;
+   height: 40px;
+   margin-top: 1px;
    margin-left: 7px;
    margin-bottom: 12px;
 }
-.skills{
-    background-color: #f5f5f5;
-    color: #1a1a1a;
-    margin-top: 50px;
-    margin-left:-200px;
-  display: flex;
-  justify-content: center; 
 
-}
-.skills p{
-    font-size: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- margin-bottom: -34px;
-     margin-top:-107px ;
-    margin-left:-370px; 
-    margin-right: -150px;
-}
-.skills img{
-    background-color: rgba(159, 156, 156, 0.635);
-   border-radius: 3px;
-   width: 30px;
-   height: 20px;
-margin-top: -85px;
-   margin-left: 7px;
-   margin-bottom: -22px;
-    /* background-color: rgba(159, 156, 156, 0.635);
-   border-radius: 33px;
-   width: 90px;
-   height: 80px;
-   margin-top: -100px;
-   margin-bottom: 12px;
- margin-right: 4px; */
-}
 .line2{
     height: 2px;
     width: 100%;
-    background-color: rgba(159, 156, 156, 0.635);
+    background-color:rgba(159, 156, 156, 0.635);
     margin: 21px 0;
 }
 .feature{
@@ -206,7 +174,7 @@ margin-top: -85px;
     margin-bottom: 6px;
 }
 .card h3{
-      /* color: rgb(50, 49, 49); */
+
       color: #111111;
       margin-bottom: 6px;
       font-weight: 600;
@@ -221,13 +189,30 @@ section {
 h1, h2 {
   margin-bottom: 10px;
 }
+.skills{
+  margin-left:85px;
+  margin-top: -65px;
+  color: rgb(61, 59, 59);
+
+}
+.skill-icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 20px;
+  width: 100px;
+  border-radius: 2px;
+}
+.skill-icon img{
+    border-radius: 2px;
+}
  .projects{
-    margin-left:85px;
-    margin-top: -70px;
-     color: rgb(61, 59, 59);
+   margin-left:85px;
+    margin-top: -45px;
+     gap: 10px;
 }
 .projects h2{
-    color: #262626;
+  color: rgb(61, 59, 59);
 }
 .contact{
     margin-left:85px;
@@ -236,20 +221,13 @@ h1, h2 {
  color: rgb(61, 59, 59);
 }
 .contact h2{
-    color: #272626;
+    color: rgb(61, 59, 59);
 }
 .social-links{
     margin-left: 103px;
     margin-top: -34px;
     margin-bottom: 20px;
 }
-/* .email{
-font-weight: bold;
-}
-.github{
-    font-weight: bold;
-}  */
-  
 
 .line4{
     height: 2px;
@@ -272,5 +250,4 @@ footer h1{
     align-items: center;
     margin-top: -20px;
      color: rgb(61, 59, 59); 
-    /* color: #111111; */
 }
